@@ -1,0 +1,23 @@
+@import "../../vars.css";
+
+.selector-wrapper {
+  place-content: center;
+  margin: 0rem 1rem 0.5rem 0rem;
+}
+
+.selector-wrapper select {
+  padding: 0.5rem 0.5rem;
+  border-radius: var(--border-radius);
+  font-family: "Roboto";
+  border: 0px solid transparent;
+}
+
+.selector-wrapper option {
+  border-radius: 0px 0px 20px 20px;
+}
+
+@media (max-width: 305px) {
+  .selector-wrapper {
+    margin: 0rem 0rem 0.5rem 0rem;
+  }
+}

@@ -1,0 +1,11 @@
+@import "../../vars.css";
+
+.layout {
+  background-color: var(--color-primary);
+  min-height: 100vh;
+  height: 100%;
+}
+
+.children-wrapper {
+  margin: 0rem 0.5rem;
+}

@@ -1,0 +1,29 @@
+@import "../../vars.css";
+
+.card {
+  list-style-type: none;
+  background-color: var(--color-cuaternary);
+  color: var(--color-primary);
+  margin: 1rem 1rem;
+  padding: 1rem;
+  width: 10rem;
+  min-width: 5rem;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-terciary);
+}
+
+.card:hover {
+  cursor: pointer;
+  color: var(--color-primary);
+  background-color: var(--color-terciary);
+  border: 1px solid var(--color-terciary);
+}
+
+.card span {
+  font-size: 0.8rem;
+  display: flex;
+}
+
+.details h3 {
+  min-width: 2rem;
+}

@@ -1,0 +1,22 @@
+@import "../../vars.css";
+
+.main-header {
+  background-color: var(--color-secondary);
+  width: 100%;
+  padding: 1rem 0rem 0.5rem 0rem;
+  align-items: center;
+}
+
+.main-header-content {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 0rem 6rem 0rem 0rem;
+}
+
+@media (max-width: 530px) {
+  .main-header-content {
+    justify-content: center;
+    margin: 0rem;
+  }
+}

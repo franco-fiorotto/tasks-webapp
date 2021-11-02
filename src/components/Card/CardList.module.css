@@ -1,0 +1,19 @@
+@import "../../vars.css";
+
+.cardList-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0rem;
+  flex-wrap: wrap;
+  margin: 0rem;
+}
+
+.cardList-wrapper h2 {
+  color: var(--color-secondary);
+}
+
+.cardList-wrapper .info {
+  text-align: center;
+  word-break: break-word;
+}

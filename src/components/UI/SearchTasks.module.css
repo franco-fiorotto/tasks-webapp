@@ -1,0 +1,23 @@
+@import "../../vars.css";
+
+.search-tasks-wrapper {
+  margin: 0rem 1rem 0.5rem 0rem;
+}
+
+.search-tasks-wrapper input {
+  border-radius: var(--border-radius);
+  padding: 0.5rem 0.5rem;
+  border: 0px solid transparent;
+  height: 100%;
+  font-family: "Roboto";
+}
+
+@media (max-width: 305px) {
+  .search-tasks-wrapper {
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .search-tasks-wrapper input {
+    width: 100%;
+  }
+}
